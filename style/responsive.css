@@ -1,0 +1,96 @@
+@media screen and (max-width:1000px) {
+    .inicioConteudo {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .inicioConteudo img {
+        width: 450px;
+    }
+
+    .sobreConteudo {
+        width: 100%;
+    }
+
+    .sobreConteudo .img img {
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width:937px) {
+    .inicioContainer {
+        background-image: none;
+    }
+
+
+    .sobreConteudo .img img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:847px) {
+    .inicioConteudo img {
+        width: 350px;
+    }
+
+    .sobreConteudo .img img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:737px) {
+    .inicioConteudo {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+    }
+
+    .inicioConteudo .escrita {
+        margin-top: 90px;
+    }
+
+
+    .sobreConteudo {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+    }
+
+    .sobreConteudo .escritaSobre {
+        width: 35em;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width:567px) {
+    .sobreConteudo .escritaSobre {
+        width: 100%;
+    }
+
+    .inicioConteudo .escrita {
+        width: 100%;
+    }
+
+    .sobreConteudo .img img {
+        width: 100%;
+    }
+
+    .inicioConteudo img {
+        width: 100%;
+    }
+
+    .headerConteudo {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .IconMenuMobile {
+        visibility: visible;
+    }
+}
