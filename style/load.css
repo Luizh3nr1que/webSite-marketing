@@ -17,7 +17,7 @@
     background-color: rgb(240, 240, 240);
     height: 150px;
     border-radius: 50%;
-    color: #0084ff;
+    color: #6055ff;
     letter-spacing: 3px;
     text-shadow: 0 0 20px #0084ff6a;
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
@@ -30,6 +30,7 @@
 }
 
 .carregando {
+    color: #6055ff;
     font-size: 12px;
 }
 
@@ -42,8 +43,8 @@
     width: 100%;
     height: 100%;
     border: 3px solid transparent;
-    border-top: 5px solid #0084ff;
-    border-right: 5px solid #0084ff;
+    border-top: 5px solid #6055ff;
+    border-right: 5px solid #6055ff;
     border-radius: 50%;
     animation: animate 2s linear infinite;
 }
